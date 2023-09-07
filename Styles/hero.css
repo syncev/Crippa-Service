@@ -1,0 +1,70 @@
+.hero{
+    position: relative;
+}
+.toolbox-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.toolbox{
+    width: 170px;
+    height: 110px;
+    padding: 1rem 0;
+}
+.toolbox-circle{
+    width: 115%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translate(0, -45%);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.hero-title{
+    font-size: 2rem;
+    max-width: 400px;
+}
+.hero-button{
+    padding: 0.9em 1.8em;
+    font-size: 1rem;
+    width: fit-content;
+    background-color: var(--black-color);
+    color: white;
+    border: 1px solid var(--black-color);
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 300ms;
+}
+.hero-button:hover{
+    background-color: var(--button-hover);
+    color: var(--black-color);
+    scale: 1.025;
+}
+
+.left-floating{
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-15%, 35%) rotate(20deg);
+}
+.right-floating{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 35%) rotate(-20deg);
+}

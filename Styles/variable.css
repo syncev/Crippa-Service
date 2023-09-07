@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #527273;
+    --black-color: #170102;
+    --secondary-color: #E5E5F2;
+    --button-hover: #F5F0DF;
+}
+body{
+    line-height: normal;
+    background-color: var(--secondary-color);
+    
+}
+main{
+    overflow: hidden;
+}
+.other-font{
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+.title-font{
+    font-family: 'DM Serif Display', serif;
+}
